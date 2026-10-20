@@ -1,5 +1,5 @@
 class Solution:
-    def sumOfSortable(self, nums: list[int]) -> int:
+    def sortableIntegers(self, nums: list[int]) -> int:
         n = len(nums)
         target = sorted(nums)
 
