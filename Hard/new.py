@@ -1,4 +1,4 @@
- class Solution:
+class Solution:
     def sumOfSortable(self, nums: list[int]) -> int:
         n = len(nums)
         target = sorted(nums)
