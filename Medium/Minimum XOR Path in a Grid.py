@@ -1,5 +1,5 @@
 class Solution:
-    def minXorPath(self, grid: list[list[int]]) -> int:
+    def minCost(self, grid: list[list[int]]) -> int:
         m, n = len(grid), len(grid[0])
         prev = [set() for _ in range(n)]
 
