@@ -1,7 +1,7 @@
 import heapq
 
 class Solution:
-    def minCost(self, n: int, edges: list[list[int]], labels: str, k: int) -> int:
+    def shortestPath(self, n: int, edges: list[list[int]], labels: str, k: int) -> int:
         if n == 1:
             return 0
 
